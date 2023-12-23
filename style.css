@@ -13,9 +13,10 @@ a {
     text-decoration: none;
     color: black; 
 }
-body {
+.container {
     display:flex;
 }
+
 
 .sidebar  {
     position: sticky; 
@@ -29,6 +30,7 @@ body {
     overflow: hidden;
     transition: all 1s linear; 
     background: rgba(255, 165, 0, 1);
+ 
 }
 
 .menu {
@@ -50,3 +52,22 @@ body {
 background: white;
 border-radius: 20px;
 }
+
+.name {
+    font-size: 40px; 
+    padding: 2rem; 
+    background-color: #3498db; 
+    
+    flex: 3;
+ 
+}
+.name span {
+    font-weight: bold;
+}
+
+.name p {
+    padding: rem;
+    font-size: 20px;
+  
+}
+
