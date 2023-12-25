@@ -29,7 +29,7 @@ a {
     color: #fff; 
     overflow: hidden;
     transition: all 1s linear; 
-    background: rgba(255, 165, 0, 1);
+    background: #B2A59B; 
  
 }
 
@@ -56,8 +56,7 @@ border-radius: 20px;
 .name {
     font-size: 40px; 
     padding: 2rem; 
-    background-color: #3498db; 
-    
+    background-color: #FAEED1; 
     flex: 3;
  
 }
